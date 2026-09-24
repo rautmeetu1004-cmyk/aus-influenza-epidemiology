@@ -14,7 +14,8 @@ steps <- c(
   "R/03_descriptive_time.R",
   "R/04_descriptive_person.R",
   "R/05_descriptive_place.R",
-  "R/06_interrupted_timeseries.R"
+  "R/06_interrupted_timeseries.R",
+  "R/07_statistical_tests.R"
 )
 
 for (s in steps) {

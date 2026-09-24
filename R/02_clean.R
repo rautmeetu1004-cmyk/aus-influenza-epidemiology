@@ -98,4 +98,16 @@ indigenous_completeness <- clean |>
   )
 write_csv(indigenous_completeness, path_processed("indigenous_completeness.csv"))
 
-message("Wrote 5 processed tables to data/processed/.")
+# --- aggregate 6: influenza type by age group (for chi-square tests) --------
+age_type <- clean |>
+  count(age, type_group, name = "notifications") |>
+  arrange(age, type_group)
+write_csv(age_type, path_processed("age_type.csv"))
+
+# --- aggregate 7: influenza type by sex (for chi-square tests) --------------
+sex_type <- clean |>
+  count(sex, type_group, name = "notifications") |>
+  arrange(sex, type_group)
+write_csv(sex_type, path_processed("sex_type.csv"))
+
+message("Wrote 7 processed tables to data/processed/.")

@@ -1,0 +1,24 @@
+test,quantity,value
+Poisson vs negative binomial (LRT),pearson_dispersion,2628.3
+Poisson vs negative binomial (LRT),lrt_statistic,551396.7
+Poisson vs negative binomial (LRT),df,1
+Poisson vs negative binomial (LRT),p_value,0
+Poisson vs negative binomial (LRT),conclusion,negative binomial justified
+Chi-square independence: type (A/B) x age,chi_square,41815
+Chi-square independence: type (A/B) x age,df,17
+Chi-square independence: type (A/B) x age,p_value,0
+Chi-square independence: type (A/B) x age,n,1935468
+Chi-square independence: type (A/B) x age,cramers_v,0.147
+Chi-square independence: type (A/B) x age,effect,small
+Chi-square independence: type (A/B) x sex,chi_square,295.3
+Chi-square independence: type (A/B) x sex,df,1
+Chi-square independence: type (A/B) x sex,p_value,3.55e-66
+Chi-square independence: type (A/B) x sex,n,1931482
+Chi-square independence: type (A/B) x sex,phi,0.012
+Chi-square independence: type (A/B) x sex,effect,negligible
+Rate ratio 2020 vs 2015-2019 baseline (exact Poisson),observed_2020,21881
+Rate ratio 2020 vs 2015-2019 baseline (exact Poisson),expected_baseline,162928
+Rate ratio 2020 vs 2015-2019 baseline (exact Poisson),rate_ratio,0.134
+Rate ratio 2020 vs 2015-2019 baseline (exact Poisson),ci_low,0.133
+Rate ratio 2020 vs 2015-2019 baseline (exact Poisson),ci_high,0.136
+Rate ratio 2020 vs 2015-2019 baseline (exact Poisson),p_value,2.96439387504748e-323

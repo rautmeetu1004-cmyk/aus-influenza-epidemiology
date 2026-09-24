@@ -24,6 +24,7 @@ running anything.
   ISO week 32 (early August), and **peaks later in the southern states than the north**.
 - **The young carry the highest notification counts**, and influenza A dominates,
   with influenza B surging in particular seasons (for example 2017).
+- **Classical tests, read for effect size not just p.** With 1.97M records every test is "significant", so the analysis reports effect sizes: influenza type by age is statistically significant but a small effect (Cramer's V 0.147) and by sex negligible (phi 0.012); the 2020 rate ratio versus baseline is 0.134 (95% CI 0.133 to 0.136); and the overdispersion statistic (2628) justifies the negative binomial over Poisson.
 - **A real data limitation, made explicit:** Indigenous status is usable for only
   about **41% of notifications on average**, so this project does not draw
   conclusions about First Nations disparities from this field.
@@ -86,6 +87,7 @@ R/
   04_descriptive_person.R   age, sex, subtype, data completeness
   05_descriptive_place.R    state trends, peak timing
   06_interrupted_timeseries.R  negative binomial counterfactual
+  07_statistical_tests.R    overdispersion, chi-square, rate ratio
 data/
   raw/          gitignored 47 MB workbook (re-downloadable)
   processed/    small tidy CSVs, committed
