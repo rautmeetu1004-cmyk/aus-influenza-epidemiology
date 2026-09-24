@@ -1,0 +1,14 @@
+# Raw data is large (~47 MB) and re-downloadable; never commit it
+data/raw/
+*.xlsx
+*.xls
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+
+# OS
+.DS_Store
